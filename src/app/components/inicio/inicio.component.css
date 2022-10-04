@@ -1,0 +1,42 @@
+.fondoItem {
+    background-color: #ff111328;
+    height: 130px;
+    border-radius: 20px;
+    color: azure;
+}
+
+.sexo {
+    font-size: 40px;
+}
+
+.estiloNumero {
+    font-size: 32px;
+    font-weight: 800px;
+    margin-top: -30px;
+}
+
+.cm {
+    font-size: 16px;
+    font-weight: 400px;
+    margin-left: -10px;
+}
+
+.form-range {
+    padding: 0px 20px;
+}
+
+input[type=range] ::-webkit-slider-thumb {
+    background: #FF3366;
+}
+
+.sumaResta {
+    cursor: pointer;
+    background-color: #FF4CFF5E;
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 3px;
+}
+
+.sexActDes {
+    background-color: #f1081f5e;
+}

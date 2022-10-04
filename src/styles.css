@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/fondoBMI.jpg');
+    background-size: cover;
+}
+
+.titulo {
+    text-align: center;
+    color: azure;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.btn-color {
+    background-color: #ff3366;
+    border-color: #ff3366;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.btn-color:hover {
+    background-color: #ff3366;
+    border-color: #ff3366;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
